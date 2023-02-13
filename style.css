@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainsection{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.uppersection1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uppersection1 h1{
+color: white;
+text-shadow: 2px 2px  black;
+}
+.uppersection2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uppersection2 .input{
+    width: 25%;
+    height: 50%;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin-right: 1.2rem;
+    padding-left: 1rem;
+}
+.uppersection2 .select{
+    width: 6%;
+    height: 40%;
+    border-radius: 5px;
+    outline: none;
+}
+.middlesection{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+}
+.middlesection button{
+    width: 8%;
+    height: 100%;
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 12px;
+}
+.lowersection{
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.leftlowersection{
+    width: 50%;
+    height: 100%;
+    margin:0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightlowersection{
+    width: 50%;
+    height: 100%;
+    margin:0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
